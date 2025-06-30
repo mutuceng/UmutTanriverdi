@@ -33,7 +33,7 @@ export default function BackgroundDecor() {
         sm:left-[-10px] md:left-[0px] lg:left-[0px] 
         rotate-[-90deg] 
         text-fuchsia-300 font-mono text-xs 
-        sm:text-md opacity-50 tracking-widest
+        sm:text-md opacity-40 tracking-widest
       ">
         <p>Console.WriteLine("hello dev");</p>
       </div>
