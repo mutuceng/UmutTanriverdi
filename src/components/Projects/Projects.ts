@@ -24,11 +24,13 @@ SignalR provides real-time conversation updates. Secure token-based authenticati
 
 The system uses YARP Gateway for routing and service communication.`,
     techStack: ["ASP.NET", "SignalR", "Redis", "PostgreSQL", "RabbitMQ", "Duende IdentityServer", "React", "Microservices", "YARP"],
-    imageUrls: ["/images/mesajxreeltime.png"],
+    imageUrls: [
+      `${import.meta.env.BASE_URL}images/mesajxreeltime.png`
+    ],
     githubUrl: "https://github.com/mutuceng/MesajX",
     liveDemoUrl: undefined 
   },
-    {
+  {
     id: "baristashop",
     title: "BaristaShop",
     description: "Microservices-based e-commerce site for barista tools",
@@ -40,7 +42,12 @@ The system uses YARP Gateway for routing and service communication.`,
 - Ocelot API Gateway for routing.
 - IdentityServer4 for secure, role-based access.`,
     techStack: ["ASP.NET", "Microservices", "Docker", "Ocelot", "IdentityServer4", "CQRS", "Redis", "MongoDB", "PostgreSQL"],
-    imageUrls: ["/images/BaristaShop1.jpg", "/images/BaristaShop2.png", "/images/BaristaShop3.jpg", "/images/BaristaShop4.jpg"],
+    imageUrls: [
+      `${import.meta.env.BASE_URL}images/BaristaShop1.jpg`,
+      `${import.meta.env.BASE_URL}images/BaristaShop2.png`,
+      `${import.meta.env.BASE_URL}images/BaristaShop3.jpg`,
+      `${import.meta.env.BASE_URL}images/BaristaShop4.jpg`
+    ],
     githubUrl: "https://github.com/mutuceng/BaristaShop",
     liveDemoUrl: undefined
   },
@@ -54,11 +61,15 @@ The system uses YARP Gateway for routing and service communication.`,
 - Deployed model behind a RESTful API using FastAPI + Docker.
 - Created a .NET-based frontend to interact with the model.`,
     techStack: ["Python", "FastAPI", "Docker", "ASP.NET"],
-    imageUrls: ["/images/DepressionProject.jpg","/Images/DepressionProject2.jpg", "/Images/DepressionProject3.jpg","/Images/DepressionProject4.jpg"],
+    imageUrls: [
+      `${import.meta.env.BASE_URL}images/DepressionProject.jpg`,
+      `${import.meta.env.BASE_URL}images/DepressionProject2.jpg`,
+      `${import.meta.env.BASE_URL}images/DepressionProject3.jpg`,
+      `${import.meta.env.BASE_URL}images/DepressionProject4.jpg`
+    ],
     githubUrl: "https://github.com/mutuceng/depression-risk-classification",
     liveDemoUrl: undefined
   },
-
   {
     id: "blogsite",
     title: "Blog & Portfolio Platform",
@@ -70,7 +81,10 @@ The system uses YARP Gateway for routing and service communication.`,
 - Responsive and accessible design.
 - Frontend: HTML, CSS, JavaScript.`,
     techStack: ["ASP.NET", "MVC", "HTML", "CSS", "JavaScript", "SQLite"],
-    imageUrls: ["/images/Blog1.jpg", "/images/Blog2.jpg"],
+    imageUrls: [
+      `${import.meta.env.BASE_URL}images/Blog1.jpg`,
+      `${import.meta.env.BASE_URL}images/Blog2.jpg`
+    ],
     githubUrl: "https://github.com/mutuceng/dotnet-blog-",
     liveDemoUrl: undefined
   },
@@ -84,8 +98,12 @@ The system uses YARP Gateway for routing and service communication.`,
 - Object-Oriented Design: roles, ratings, movies.
 - UI designed for simplicity and clarity.`,
     techStack: ["C#", "PostgreSQL", "Windows Forms"],
-    imageUrls: ["/images/Filmiyorum1.jpg", "/images/Filmiyorum2.jpg", "/images/Filmiyorum3.jpg", "/images/Filmiyorum4.jpg"],
-
+    imageUrls: [
+      `${import.meta.env.BASE_URL}images/Filmiyorum1.jpg`,
+      `${import.meta.env.BASE_URL}images/Filmiyorum2.jpg`,
+      `${import.meta.env.BASE_URL}images/Filmiyorum3.jpg`,
+      `${import.meta.env.BASE_URL}images/Filmiyorum4.jpg`
+    ],
     githubUrl: "https://github.com/mutuceng/FilmiYorum",
     liveDemoUrl: undefined
   }
